@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: rgb(212, 209, 209);
+    text-align: center;
+   
+    padding: 20px;
+    font-size: 30px;
+}
+
+main h2 {
+    font-size: 20px;
+    color: indigo;
+    margin: 0 0 10px 0;
+
+
+}
+
+main {
+padding: 20px;
+background-color: #efefd5;
+}
+
+main p {
+    margin-bottom: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: #cdced0;
+    padding: 15px;
+}
+img {
+    width: 70px;
+    float: left;
+}
