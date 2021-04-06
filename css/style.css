@@ -32,7 +32,25 @@ footer{
     background-color: #cdced0;
     padding: 15px;
 }
-img {
+header img {
     width: 70px;
     float: left;
+}
+
+ol {
+    list-style-type:decimal ;
+    padding: 2px 0px 0px 30px;
+}
+
+ul{
+    list-style-type: disc;
+    padding: 0px 20px 30px 10px;
+}
+
+ .sport{
+    width: 900px;
+    padding: 25px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
