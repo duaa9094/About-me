@@ -1,3 +1,13 @@
+# Lab: 04 - Pair Programming: More extensions to About Me
+
+## In this lab me and Shukri wrapped all seven questions into function according the follwing roles:
+
+### Navigator : Duaa Abu-dhaim
+[The fork from shukri repository](https://github.com/duaa9094/README)
+
+### Driver : Shukri jallad
+[shukri repository](https://github.com/Shukri-jallad/README)
+
 # LAB - 02
 
 ### About Me - Gussing game
