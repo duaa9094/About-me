@@ -170,25 +170,28 @@ function sixsthQuestion(){
 
 
 //Q7
-let answer = prompt('Can you guess any of my best three colors?');
-answer = answer.toLowerCase();
-let rightAnswer = ['white', 'black', 'yellow'];
 
-for (let r = 1; r < 6; ++r) {
-  let check = rightAnswer.indexOf(answer);
-  console.log(check)
-  if (check !== -1) {
-    alert('Bravo, you are lucky');
-    finalScore++;
-    break;
-  }
-  else {
-    answer = prompt('Please try again');
-    answer = answer.toLowerCase();
-  }
+function seventhQuestion(){
+  let answer = prompt('Can you guess any of my best three colors?');
+  answer = answer.toLowerCase();
+  let rightAnswer = ['white', 'black', 'yellow'];
 
-}
-alert('these are my best three colors: white, black, yellow');
+  for (let r = 1; r < 6; ++r) {
+    let check = rightAnswer.indexOf(answer);
+    console.log(check)
+    if (check !== -1) {
+      alert('Bravo, you are lucky');
+      finalScore++;
+      break;
+    }
+    else {
+      answer = prompt('Please try again');
+      answer = answer.toLowerCase();
+    }
+
+  }
+  alert('these are my best three colors: white, black, yellow');
+} seventhQuestion();
 //end Q7
 
 
