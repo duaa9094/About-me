@@ -14,7 +14,7 @@ firstQues = firstQues.toLowerCase();
 switch (firstQues) {
   case 'y':
   case 'yes':
-    alert(' Correct Answer, it is very delesious');
+    alert(' Correct Answer, it is very delicious');
     finalScore++;
     break;
 
@@ -25,7 +25,7 @@ switch (firstQues) {
 
 }
 
-let secondQues = prompt('Do I like fotball ?');
+let secondQues = prompt('Do I like football ?');
 console.log(secondQues);
 
 secondQues = secondQues.toLowerCase();
@@ -53,7 +53,7 @@ thirdQues = thirdQues.toLowerCase();
 switch (thirdQues) {
   case 'y':
   case 'yes':
-    alert('Wrong Answer, I hope that');
+    alert('Wrong Answer, I hope thats');
     break;
 
   case 'n':
