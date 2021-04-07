@@ -1,7 +1,7 @@
 'use strict';
 
 let userName = prompt('What is your name?');
-alert('You are welcome ' + userName );
+alert('You are welcome ' + userName);
 
 let finalScore = 0;
 
@@ -88,7 +88,7 @@ switch (fourthQues) {
     finalScore++;
     break;
 
-  
+
   case 'n':
   case 'no':
     console.log('correct');
@@ -121,15 +121,15 @@ switch (fifthQues) {
 
 
 //Q6
- let sixthtQues = prompt('Guess a number between 1 to 20 ?');
-  console.log(sixthtQues);
+let sixthtQues = prompt('Guess a number between 1 to 20 ?');
+console.log(sixthtQues);
 
-  let correctAnswer=false;
+let correctAnswer = false;
 for (let i = 1; i < 4; i++) {
   sixthtQues = parseInt(sixthtQues);
   if (sixthtQues === 14) {
     alert('Bravo, you are lucky');
-    correctAnswer=true;
+    correctAnswer = true;
     finalScore++;
     break;
   }
@@ -145,9 +145,15 @@ for (let i = 1; i < 4; i++) {
     sixthtQues = parseInt(sixthtQues);
   }
 }
-if(!correctAnswer){
+if (sixthtQues === 14) {
+  alert('Bravo, you are lucky');
+  correctAnswer = true;
+  finalScore++;
+}
+if (!correctAnswer) {
   alert('You didnt guess, The correct answer is: 14');
 }
+
 
 
 
@@ -165,7 +171,7 @@ for (let r = 1; r < 6; ++r) {
     break;
   }
   else {
-    answer = prompt ('Please try again');
+    answer = prompt('Please try again');
     answer = answer.toLowerCase();
   }
 
@@ -175,4 +181,4 @@ alert('these are my best three colors: white, black, yellow');
 
 
 
-alert('Thank you for your time '+ userName+ ', here is final score: '+ finalScore );
+alert('Thank you for your time ' + userName + ', here is final score: ' + finalScore);
