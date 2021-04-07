@@ -3,9 +3,10 @@
 let userName = prompt('What is your name?');
 alert('You are welcome ' + userName );
 
-
-
 let finalScore = 0;
+
+
+//Q1
 let firstQues = prompt('My favourite meal is mansaf ?');
 console.log(firstQues);
 
@@ -25,8 +26,12 @@ switch (firstQues) {
 
 }
 
+
+
+//Q2
 let secondQues = prompt('Do I like football ?');
 console.log(secondQues);
+
 
 secondQues = secondQues.toLowerCase();
 
@@ -45,6 +50,10 @@ switch (secondQues) {
 
 }
 
+
+
+
+//Q3
 let thirdQues = prompt('Did I visit paris?');
 console.log(thirdQues);
 
@@ -63,6 +72,9 @@ switch (thirdQues) {
     break;
 }
 
+
+
+//Q4
 let fourthQues = prompt('I graduated from hashemite university?');
 console.log(fourthQues);
 
@@ -76,6 +88,7 @@ switch (fourthQues) {
     finalScore++;
     break;
 
+  
   case 'n':
   case 'no':
     console.log('correct');
@@ -83,6 +96,9 @@ switch (fourthQues) {
     break;
 }
 
+
+
+//Q5
 let fifthQues = prompt('My favourite singer is sheren?');
 console.log(fifthQues);
 
@@ -102,6 +118,9 @@ switch (fifthQues) {
     break;
 }
 
+
+
+//Q6
  let sixthtQues = prompt('Guess a number between 1 to 20 ?');
   console.log(sixthtQues);
 
@@ -132,6 +151,7 @@ if(!correctAnswer){
 
 
 
+//Q7
 let answer = prompt('Can you guess any of my best three colors?');
 answer = answer.toLowerCase();
 let rightAnswer = ['white', 'black', 'yellow'];
@@ -151,6 +171,8 @@ for (let r = 1; r < 6; ++r) {
 
 }
 alert('these are my best three colors: white, black, yellow');
+//end Q7
+
 
 
 alert('Thank you for your time '+ userName+ ', here is final score: '+ finalScore );
