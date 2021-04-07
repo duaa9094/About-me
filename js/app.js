@@ -7,12 +7,14 @@ let finalScore = 0;
 
 
 //Q1
-let firstQues = prompt('My favourite meal is mansaf ?');
-console.log(firstQues);
 
-firstQues = firstQues.toLowerCase();
+function firstQuestion(){
+  let firstQues = prompt('My favourite meal is mansaf ?');
+  console.log(firstQues);
 
-switch (firstQues) {
+  firstQues = firstQues.toLowerCase();
+
+  switch (firstQues) {
   case 'y':
   case 'yes':
     alert(' Correct Answer, it is very delicious');
@@ -24,8 +26,8 @@ switch (firstQues) {
     alert('Wrong Answer');
     break;
 
-}
-
+  }
+}firstQuestion();
 
 
 //Q2
@@ -36,17 +38,17 @@ console.log(secondQues);
 secondQues = secondQues.toLowerCase();
 
 switch (secondQues) {
-  case 'y':
-  case 'yes':
-    console.log('correct');
-    finalScore++;
-    alert('Correct Answer');
-    break;
+case 'y':
+case 'yes':
+  console.log('correct');
+  finalScore++;
+  alert('Correct Answer');
+  break;
 
-  case 'n':
-  case 'no':
-    alert('Wrong Answer');
-    break;
+case 'n':
+case 'no':
+  alert('Wrong Answer');
+  break;
 
 }
 
@@ -60,16 +62,16 @@ console.log(thirdQues);
 thirdQues = thirdQues.toLowerCase();
 
 switch (thirdQues) {
-  case 'y':
-  case 'yes':
-    alert('Wrong Answer, I hope thats');
-    break;
+case 'y':
+case 'yes':
+  alert('Wrong Answer, I hope thats');
+  break;
 
-  case 'n':
-  case 'no':
-    alert('Correct Answer');
-    finalScore++;
-    break;
+case 'n':
+case 'no':
+  alert('Correct Answer');
+  finalScore++;
+  break;
 }
 
 
@@ -81,19 +83,19 @@ console.log(fourthQues);
 fourthQues = fourthQues.toLowerCase();
 
 switch (fourthQues) {
-  case 'y':
-  case 'yes':
-    console.log('correct');
-    alert('Correct Answer');
-    finalScore++;
-    break;
+case 'y':
+case 'yes':
+  console.log('correct');
+  alert('Correct Answer');
+  finalScore++;
+  break;
 
 
-  case 'n':
-  case 'no':
-    console.log('correct');
-    alert('Wrong Answer');
-    break;
+case 'n':
+case 'no':
+  console.log('correct');
+  alert('Wrong Answer');
+  break;
 }
 
 
@@ -105,17 +107,17 @@ console.log(fifthQues);
 fifthQues = fifthQues.toLowerCase();
 
 switch (fifthQues) {
-  case 'y':
-  case 'yes':
-    console.log('correct');
-    alert('Correct Answer');
-    finalScore++;
-    break;
+case 'y':
+case 'yes':
+  console.log('correct');
+  alert('Correct Answer');
+  finalScore++;
+  break;
 
-  case 'n':
-  case 'no':
-    alert('Wrong Answer');
-    break;
+case 'n':
+case 'no':
+  alert('Wrong Answer');
+  break;
 }
 
 
