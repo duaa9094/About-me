@@ -81,27 +81,29 @@ function thirdQuestion(){
 
 
 //Q4
-let fourthQues = prompt('I graduated from hashemite university?');
-console.log(fourthQues);
 
-fourthQues = fourthQues.toLowerCase();
+function fourthQuestion(){
+  let fourthQues = prompt('I graduated from hashemite university?');
+  console.log(fourthQues);
 
-switch (fourthQues) {
-case 'y':
-case 'yes':
-  console.log('correct');
-  alert('Correct Answer');
-  finalScore++;
-  break;
+  fourthQues = fourthQues.toLowerCase();
+
+  switch (fourthQues) {
+  case 'y':
+  case 'yes':
+    console.log('correct');
+    alert('Correct Answer');
+    finalScore++;
+    break;
 
 
-case 'n':
-case 'no':
-  console.log('correct');
-  alert('Wrong Answer');
-  break;
-}
-
+  case 'n':
+  case 'no':
+    console.log('correct');
+    alert('Wrong Answer');
+    break;
+  }
+} fourthQuestion();
 
 
 //Q5
