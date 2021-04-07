@@ -128,7 +128,7 @@ let correctAnswer = false;
 for (let i = 1; i < 4; i++) {
   sixthtQues = parseInt(sixthtQues);
   if (sixthtQues === 14) {
-    alert('Bravo, you are lucky');
+    //alert('Bravo, you are lucky');
     correctAnswer = true;
     finalScore++;
     break;
