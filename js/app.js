@@ -107,25 +107,27 @@ function fourthQuestion(){
 
 
 //Q5
-let fifthQues = prompt('My favourite singer is sheren?');
-console.log(fifthQues);
 
-fifthQues = fifthQues.toLowerCase();
+function fifthQuestion(){
+  let fifthQues = prompt('My favourite singer is sheren?');
+  console.log(fifthQues);
 
-switch (fifthQues) {
-case 'y':
-case 'yes':
-  console.log('correct');
-  alert('Correct Answer');
-  finalScore++;
-  break;
+  fifthQues = fifthQues.toLowerCase();
 
-case 'n':
-case 'no':
-  alert('Wrong Answer');
-  break;
-}
+  switch (fifthQues) {
+  case 'y':
+  case 'yes':
+    console.log('correct');
+    alert('Correct Answer');
+    finalScore++;
+    break;
 
+  case 'n':
+  case 'no':
+    alert('Wrong Answer');
+    break;
+  }
+} fifthQuestion();
 
 
 //Q6
