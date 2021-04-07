@@ -58,24 +58,26 @@ function secondQuestion(){
 
 
 //Q3
-let thirdQues = prompt('Did I visit paris?');
-console.log(thirdQues);
 
-thirdQues = thirdQues.toLowerCase();
+function thirdQuestion(){
+  let thirdQues = prompt('Did I visit paris?');
+  console.log(thirdQues);
 
-switch (thirdQues) {
-case 'y':
-case 'yes':
-  alert('Wrong Answer, I hope thats');
-  break;
+  thirdQues = thirdQues.toLowerCase();
 
-case 'n':
-case 'no':
-  alert('Correct Answer');
-  finalScore++;
-  break;
-}
+  switch (thirdQues) {
+  case 'y':
+  case 'yes':
+    alert('Wrong Answer, I hope thats');
+    break;
 
+  case 'n':
+  case 'no':
+    alert('Correct Answer');
+    finalScore++;
+    break;
+  }
+} thirdQuestion();
 
 
 //Q4
