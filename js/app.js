@@ -31,27 +31,29 @@ function firstQuestion(){
 
 
 //Q2
-let secondQues = prompt('Do I like football ?');
-console.log(secondQues);
+
+function secondQuestion(){
+  let secondQues = prompt('Do I like football ?');
+  console.log(secondQues);
 
 
-secondQues = secondQues.toLowerCase();
+  secondQues = secondQues.toLowerCase();
 
-switch (secondQues) {
-case 'y':
-case 'yes':
-  console.log('correct');
-  finalScore++;
-  alert('Correct Answer');
-  break;
+  switch (secondQues) {
+  case 'y':
+  case 'yes':
+    console.log('correct');
+    finalScore++;
+    alert('Correct Answer');
+    break;
 
-case 'n':
-case 'no':
-  alert('Wrong Answer');
-  break;
+  case 'n':
+  case 'no':
+    alert('Wrong Answer');
+    break;
 
-}
-
+  }
+} secondQuestion();
 
 
 
