@@ -131,39 +131,41 @@ function fifthQuestion(){
 
 
 //Q6
-let sixthtQues = prompt('Guess a number between 1 to 20 ?');
-console.log(sixthtQues);
 
-let correctAnswer = false;
-for (let i = 1; i < 4; i++) {
-  sixthtQues = parseInt(sixthtQues);
-  if (sixthtQues === 14) {
+function sixsthQuestion(){
+  let sixthtQues = prompt('Guess a number between 1 to 20 ?');
+  console.log(sixthtQues);
+
+  let correctAnswer = false;
+  for (let i = 1; i < 4; i++) {
+    sixthtQues = parseInt(sixthtQues);
+    if (sixthtQues === 14) {
     //alert('Bravo, you are lucky');
+      correctAnswer = true;
+      finalScore++;
+      break;
+    }
+    else if (sixthtQues < 14) {
+    //alert('No, it is lower than the correct number try again');
+      sixthtQues = prompt('No, it is lower than the correct number try again');
+      sixthtQues = parseInt(sixthtQues);
+
+    }
+    else if (sixthtQues > 14) {
+    //alert('No, it is higher than the correct number');
+      sixthtQues = prompt('No, it is higher than the correct number try again');
+      sixthtQues = parseInt(sixthtQues);
+    }
+  }
+  if (sixthtQues === 14) {
+    alert('Bravo, you are lucky');
     correctAnswer = true;
     finalScore++;
-    break;
   }
-  else if (sixthtQues < 14) {
-    //alert('No, it is lower than the correct number try again');
-    sixthtQues = prompt('No, it is lower than the correct number try again');
-    sixthtQues = parseInt(sixthtQues);
-
+  if (!correctAnswer) {
+    alert('You didnt guess, The correct answer is: 14');
   }
-  else if (sixthtQues > 14) {
-    //alert('No, it is higher than the correct number');
-    sixthtQues = prompt('No, it is higher than the correct number try again');
-    sixthtQues = parseInt(sixthtQues);
-  }
-}
-if (sixthtQues === 14) {
-  alert('Bravo, you are lucky');
-  correctAnswer = true;
-  finalScore++;
-}
-if (!correctAnswer) {
-  alert('You didnt guess, The correct answer is: 14');
-}
-
+} sixsthQuestion();
 
 
 
