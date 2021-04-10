@@ -140,19 +140,16 @@ function sixsthQuestion(){
   for (let i = 1; i < 4; i++) {
     sixthtQues = parseInt(sixthtQues);
     if (sixthtQues === 14) {
-    //alert('Bravo, you are lucky');
       correctAnswer = true;
       finalScore++;
       break;
     }
     else if (sixthtQues < 14) {
-    //alert('No, it is lower than the correct number try again');
       sixthtQues = prompt('No, it is lower than the correct number try again');
       sixthtQues = parseInt(sixthtQues);
 
     }
     else if (sixthtQues > 14) {
-    //alert('No, it is higher than the correct number');
       sixthtQues = prompt('No, it is higher than the correct number try again');
       sixthtQues = parseInt(sixthtQues);
     }

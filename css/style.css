@@ -1,17 +1,21 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Indie Flower;
+    font-family: Architects Daughter;
 }
 
 h1 {
     background-color: rgb(212, 209, 209);
     text-align: center;
-   
+    font-size: 60px;
+    font-weight: bold;
     padding: 20px;
-    font-size: 30px;
+    box-shadow: 0px 2px 20px #2b6eb3d9;
+   
+
 }
 
 main h2 {
-    font-size: 20px;
+    font-size: 35px;
     color: indigo;
     margin: 0 0 10px 0;
 
@@ -25,26 +29,34 @@ background-color: #efefd5;
 
 main p {
     margin-bottom: 40px;
+    font-size: 25px;
+    margin-left: 15px;
 }
 
 footer{
     text-align: center;
     background-color: #cdced0;
     padding: 15px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-header img {
-    width: 70px;
-    float: left;
+header {
+    background-color: #efefd5;
+    padding: 0 0 20px 0;
 }
 
 ol {
     list-style-type:decimal ;
     padding: 2px 0px 0px 30px;
+    font-size: 25px;
+    margin-left: 30px;
 }
 
 ul{
     list-style-type: disc;
     padding: 0px 20px 30px 10px;
+    font-size: 25px;
+    margin-left: 30px;
 }
 
  .sport{
