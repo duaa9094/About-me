@@ -1,3 +1,10 @@
+
+# Lab: 05b - Finish and deploy your About Me
+- Added final touches to CSS.
+- Removed all commented out code and console logs.
+
+
+
 # Lab: 04 - Pair Programming: More extensions to About Me
 
 ## In this lab me and Shukri wrapped all seven questions into function according the follwing roles:
