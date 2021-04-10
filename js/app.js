@@ -109,7 +109,7 @@ function fourthQuestion(){
 //Q5
 
 function fifthQuestion(){
-  let fifthQues = prompt('My favourite singer is sheren?');
+  let fifthQues = prompt('My favourite singer is sherin?');
   console.log(fifthQues);
 
   fifthQues = fifthQues.toLowerCase();
@@ -141,7 +141,6 @@ function sixsthQuestion(){
     sixthtQues = parseInt(sixthtQues);
     if (sixthtQues === 14) {
       correctAnswer = true;
-      finalScore++;
       break;
     }
     else if (sixthtQues < 14) {
